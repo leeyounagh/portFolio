@@ -1,0 +1,69 @@
+.Main_logo_1{
+    font-weight: 900;
+    font-size: 60px;
+    color: #4285f4;
+}
+.Main_logo_2{
+    font-weight: 900;
+    font-size: 60px;
+    color:#ea4335;
+}
+.Main_logo_3{
+    font-weight: 900;
+    font-size: 60px;
+    color:#fbbc05;
+}
+.Main_logo_4{
+    font-weight: 900;
+    font-size: 60px;
+    color:#4285f4;
+}
+
+.Main_logo_5{
+    font-weight: 900;
+    font-size: 60px;
+    color:#34a853;
+}
+.Main_logo_6{
+    font-weight: 900;
+    font-size: 60px;
+    color:#ea4335;
+}
+
+input:focus {outline: 2px solid lightgray;}
+
+.Main_typing {
+    font-size:15px;
+    min-width:11px;
+    white-space: nowrap;
+    margin: 0;
+    position: fixed;
+    color: transparent;
+    left:305px;
+    top:109px;
+    width: 330px;
+    transform: translate(-50%, -50%);
+  }
+
+  .Main_typing::before {
+    content: "코딩의 매력에 흠뻑빠진 FE개발자 이수연입니다.";
+    position: absolute;
+	left:275px;
+    top:109px;
+    width: 330px;
+    height: 20px;
+    color: black;
+    overflow: hidden;
+    border-right: 1px solid black;
+    animation: typing 4s steps(28) ;
+  }
+  
+  @keyframes typing{
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 320px;
+    }
+   
+  }
