@@ -3,9 +3,9 @@ import './About.css'
 
 const About = () => {
 
-  const [skill,setSkill] =useState([{name:"HTML,CSS,JS",gage:"90%",progress:'progress-bar',
+  const [skill,setSkill] =useState([{name:"HTML,CSS,REACT",gage:"80%",progress:'progress-bar',
  progressbg:"progress-bg"},
-     {name:"REACT,REDUX",gage:"85%",
+     {name:"js,REDUX",gage:"75%",
      progress:'progress-bar1',
      progressbg:"progress-bg1"},{name:"MONGODB,NODEJS",gage:"60%",
      progress:'progress-bar2',

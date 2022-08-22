@@ -106,22 +106,22 @@
   
   @-webkit-keyframes progress-bar {
       from { width: 0%; }
-      to { width: 90%; }
+      to { width: 80%; }
   }
   
   @-moz-keyframes progress-bar {
       from { width: 0%; }
-      to { width: 90%; }
+      to { width: 80%; }
   }
   
   @-o-keyframes progress-bar {
       from { width: 0%; }
-      to { width: 90%; }
+      to { width: 80%; }
   }
   
   @keyframes progress-bar {
       from { width: 0%; }
-      to { width: 90%; }
+      to { width: 80%; }
   }
   
 
@@ -363,22 +363,22 @@ body .progress-bg1 div {
 
 @-webkit-keyframes progress-bar1 {
     from { width: 0%; }
-    to { width: 85%; }
+    to { width: 75%; }
 }
 
 @-moz-keyframes progress-bar1 {
     from { width: 0%; }
-    to { width: 85%; }
+    to { width: 75%; }
 }
 
 @-o-keyframes progress-bar1 {
     from { width: 0%; }
-    to { width: 85%; }
+    to { width: 75%; }
 }
 
 @keyframes progress-bar1 {
     from { width: 0%; }
-    to { width: 85%; }
+    to { width: 75%; }
 }
 
 
