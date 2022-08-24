@@ -67,3 +67,8 @@
   font-size: 20px;
   color:#ea4335;
 }
+.btn_style{
+  border: none;
+  background: white;
+  cursor: pointer;
+}

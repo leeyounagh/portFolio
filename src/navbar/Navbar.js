@@ -52,7 +52,7 @@ const Navbar = () => {
                  
                   </span>
                   <span>
-                    <a href='https://youtu.be/y-QrxtjrThk'  style={{color:'black',textDecoration:"none"}}> <img style={{borderRadius:"50px"}} alt='프로필'
+                    <a href='https://youtu.be/rUUOpThKH-c'  style={{color:'black',textDecoration:"none"}}> <img style={{borderRadius:"50px"}} alt='프로필'
                      src='image/프로필.jpg' width='30px' height='30px'></img> </a>
                    
                   </span>

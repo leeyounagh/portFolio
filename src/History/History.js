@@ -22,12 +22,14 @@ const History = () => {
             <div style={{position:"relative",left:"280px",
             top:"-30px"}}>
                <h4>프로젝트 설명</h4>
-                <h6>  전공이 관광학과다보니 여행관련 앱은 꼭 만들고 싶었고, 
-                공부를 하면서 틈틈히 설계를 하였습니다. CRUD모두 가능하게끔 구현하였고,
-                유저의 입장에서 필요하다고 생각한 부분은 모두 구현하였습니다. 
-                최대한 라이브러리의 힘을 빌리고 싶지않아 90%는 제가 직접 구현한 프로젝트 입니다.
-
-
+                <h6>  전공이 관광학과다보니 여행관련 앱은 꼭 만들고 싶었습니다.
+                    완벽한 홈페이지를 만들고 싶어 풀스택으로 구현하게 되었습니다.
+                    여행계획을 함께 세워보고, 여행지를 관광지,숙박업소,맛집,쇼핑지로 정리해서 볼수 있고,
+                    추천도 해주며 찜기능으로 가고싶은곳을 찜해둘수도 있습니다. 또한, Hellojeju유저간 소통돋 하고,
+                    관광지를 추천할수 있는 커뮤니티 서비스도 제공하고 있습니다.
+                    최대한 라이브러리의 힘을 빌리고 싶지않아 90%는 제가 직접 구현한 프로젝트 입니다.
+                   
+   
                 
 
                 </h6>
@@ -44,8 +46,8 @@ const History = () => {
             비짓제주 api,google api를 이용하였습니다.
           </h6>
            
-            <button onClick={prevHandler}>prev</button>
-            <button onClick={NextHandler}>Next</button>
+            <button className='btn_style' onClick={prevHandler}>prev</button>
+            <button className='btn_style' onClick={NextHandler}>Next</button>
             </div>
         )
     }
@@ -55,7 +57,7 @@ const History = () => {
             <div style={{position:"relative",left:"280px",
             top:"0px"}}>
  <h6> 
-            커뮤니티 페이지: 유저간 제주도 여행 정보 공유하고, 친목도 다질수 있는 커뮤티티 페이지를 구현했습니다.
+            커뮤니티 페이지: 유저간 제주도 여행 정보 공유하고, 친목도 다질수 있는 커뮤니티 페이지를 구현했습니다.
             상단에는 최신게시물을 슬라이드로 볼수 있게끔 기능을 추가하였고, 게시글을 직접 쓸수 있고, 유저가 직접 댓글도 달수 있습니다.
             하단에는 게시글 제목명, 유저 아이디를 검색할수있는 기능도 구현하였습니다.
         
@@ -65,7 +67,7 @@ const History = () => {
           또한, 유저 여행스타일도 설정 할수 있습니다.
           </h6>
            
-            <button onClick={prevHandler}>prev</button>
+            <button className='btn_style' onClick={prevHandler}>prev</button>
             </div>
         )
     }
@@ -75,10 +77,13 @@ const History = () => {
                 <h4>프로젝트 설명</h4>
                 <h6>리액트 공부후 제대로된 홈페이지를 만들고 싶어 만든 첫 프로젝트 입니다.
                     CRUD를 구현하고 싶어 몽고디비와 nodeexpress를 공부후 프록시서버로 연결하였습니다.
-                    빈티지 소품을 파는 쇼핑몰로, 유저들이 직접 상품을 올릴수도 있고, 구매도 가능하게끔 구현하였습니다.
+                 
+                </h6>
+                <h6>
+                빈티지 소품을 파는 쇼핑몰로, 유저들이 직접 상품을 올릴수도 있고, 구매도 가능하게끔 구현하였습니다.
                     결제는 페이팔 테스트결제를 이용하여 가상으로 결제도 할수있게끔 구현했습니다.
                 </h6>
-                 <button onClick={prevHandler2}>prev</button>
+                 <button className='btn_style'onClick={prevHandler2}>prev</button>
             </div>
         )
     }
@@ -89,7 +94,7 @@ const History = () => {
             <div style={{width:"80%",height:'400px',margin:'60px',}}>
           <div style={{display:"flex",justifyContent:"space-around",margin:"50px"}}>
           <video style={{width:'500px',position:'absolute',
-         left:"180px",top:'180px' }} id="vid" src="video/헬로우제주.mp4" controls></video>
+         left:"180px",top:'180px' }} id="vid" src="video/헬로우 제주.mp4" controls></video>
 
           <div style={{width:"350px"}}>
           
@@ -107,7 +112,7 @@ const History = () => {
         
            
          <h6>영상에 자막이 있으므로 부디 전체화면으로 시청 부탁드립니다.🙏</h6>
-           <button onClick={NextHandler}>
+           <button className='btn_style' onClick={NextHandler}>
               Next
            </button>
            </div>:next===2?<div>{secondPageRenderer()}</div>:<div>{hellojejuthird()}</div>
@@ -146,7 +151,7 @@ const History = () => {
                 
             </h6>
             <h6><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h6>
-            <button onClick={NextHandler2}>Next</button>
+            <button className='btn_style' onClick={NextHandler2}>Next</button>
                    </div>
                 }
            

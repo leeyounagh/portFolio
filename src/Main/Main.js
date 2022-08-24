@@ -127,7 +127,7 @@ const Main = () => {
                 <div style={{marginTop:"10px"}}>
                 <DiVisualstudio size='40px' >
 
-                </DiVisualstudio>
+                </DiVisualstudio >
                     <div style={{marginTop:"5px"}}>
                     ...ing
                     </div>
