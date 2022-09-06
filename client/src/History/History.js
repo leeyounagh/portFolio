@@ -93,7 +93,7 @@ const History = () => {
             <div style={{display:"flex",justifyContent:"center"}}>
             <div style={{width:"80%",height:'400px',margin:'60px',}}>
           <div style={{display:"flex",justifyContent:"space-around",margin:"50px"}}>
-          <video style={{width:'500px',position:'absolute',
+          <video style={{width:'40%',position:'absolute',
          left:"180px",top:'180px' }} id="vid" src="video/헬로우 제주.mp4" controls></video>
 
           <div style={{width:"350px"}}>
@@ -102,18 +102,18 @@ const History = () => {
             next===1?<div style={{position:"relative",left:"280px",
             top:"0px"}}>
                 <h3>HELLO JEJU</h3>
-                 <h6>제작기간:2022.06.01~2022.07.31 2개월</h6>
-           <h6> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h6>
-           <h6>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
-                npm run start 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h6>
-           <h6>
+                 <h4>제작기간:2022.06.01~2022.07.31 2개월</h4>
+           <h4> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h4>
+           <h4>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
+                npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h4>
+           <h4>
            <a href='https://github.com/leeyounagh/travelapp'>깃허브로 이동</a>
            
-           </h6>
+           </h4>
         
            
          <h6>영상에 자막이 있으므로 부디 전체화면으로 시청 부탁드립니다.🙏</h6>
-           <button className='btn_style' onClick={NextHandler}>
+           <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>
               Next
            </button>
            </div>:next===2?<div>{secondPageRenderer()}</div>:<div>{hellojejuthird()}</div>
@@ -135,10 +135,10 @@ const History = () => {
 
 
             {/* 쇼핑몰 */}
-            <div style={{display:"flex",justifyContent:"center"}}>
+            <div style={{display:"flex",justifyContent:"center",position:"relative",left:"-70px"}}>
             <div style={{width:"80%",height:'400px',margin:"60px"}}>
              <div style={{display:"flex",justifyContent:"space-around",margin:"50px"}}>
-             <video style={{width:'500px', }} id="vid" src="video/쇼핑몰.mp4" controls></video>
+             <video style={{width:'55%', }} id="vid" src="video/쇼핑몰.mp4" controls></video>
              <div style={{width:"350px"}}>
                 {
                     next2?<div>{secondPageRenderer2()}</div>:
@@ -148,7 +148,7 @@ const History = () => {
               <h6> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h6>
             
             <h6>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
-                npm run start 입력하시면 테스트 해보실수 있습니다 🙆‍♀️
+                npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️
                 
             </h6>
             <h6><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h6>
