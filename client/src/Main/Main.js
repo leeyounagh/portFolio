@@ -9,7 +9,7 @@ import { BsMic } from 'react-icons/bs';
 
 const Main = () => {
     return (
-        <div style={{width:"100%",
+        <div style={{width:"100%",marginBottom:"100px",
          height:"440px",display:"flex",flexDirection:"column",alignItems:"center", position:"relative",top:"50px" }}>
           
             <div style={{width:"400px",height:"120px"}}>
