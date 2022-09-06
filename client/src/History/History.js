@@ -100,10 +100,10 @@ const History = () => {
           
           {
             next===1?<div style={{position:"relative",left:"280px",
-            top:"-30px"}}>
+            top:"0px"}}>
                 <h3>HELLO JEJU</h3>
-                 <h4>제작기간:2022.06.01~2022.07.31 2개월</h4>
-           <h4> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h4>
+                 <h5>제작기간:2022.06.01~2022.07.31 2개월</h5>
+           <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
            <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
                 npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h5>
            <h4>
@@ -143,7 +143,7 @@ const History = () => {
                 {
                     next2?<div>{secondPageRenderer2()}</div>:
                    <div>
-                   
+                    <h3>VintAge</h3>
                        <h5>제작기간:2022.05.01~05.31 한달</h5>
               <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
             
