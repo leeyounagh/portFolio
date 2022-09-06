@@ -46,8 +46,8 @@ const History = () => {
             비짓제주 api,google api를 이용하였습니다.
           </h6>
            
-            <button className='btn_style' onClick={prevHandler}>prev</button>
-            <button className='btn_style' onClick={NextHandler}>Next</button>
+            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={prevHandler}>prev</button>
+            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>Next</button>
             </div>
         )
     }
@@ -67,7 +67,7 @@ const History = () => {
           또한, 유저 여행스타일도 설정 할수 있습니다.
           </h6>
            
-            <button className='btn_style' onClick={prevHandler}>prev</button>
+            <button style={{fontSize:"1.2rem"}} className='btn_style' onClick={prevHandler}>prev</button>
             </div>
         )
     }
@@ -83,7 +83,7 @@ const History = () => {
                 빈티지 소품을 파는 쇼핑몰로, 유저들이 직접 상품을 올릴수도 있고, 구매도 가능하게끔 구현하였습니다.
                     결제는 페이팔 테스트결제를 이용하여 가상으로 결제도 할수있게끔 구현했습니다.
                 </h6>
-                 <button className='btn_style'onClick={prevHandler2}>prev</button>
+                 <button style={{fontSize:"1.2rem"}} className='btn_style'onClick={prevHandler2}>prev</button>
             </div>
         )
     }
@@ -100,12 +100,12 @@ const History = () => {
           
           {
             next===1?<div style={{position:"relative",left:"280px",
-            top:"0px"}}>
+            top:"-30px"}}>
                 <h3>HELLO JEJU</h3>
                  <h4>제작기간:2022.06.01~2022.07.31 2개월</h4>
            <h4> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h4>
-           <h4>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
-                npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h4>
+           <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
+                npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h5>
            <h4>
            <a href='https://github.com/leeyounagh/travelapp'>깃허브로 이동</a>
            
@@ -144,15 +144,15 @@ const History = () => {
                     next2?<div>{secondPageRenderer2()}</div>:
                    <div>
                    
-                       <h6>제작기간:2022.05.01~05.31 한달</h6>
-              <h6> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h6>
+                       <h5>제작기간:2022.05.01~05.31 한달</h5>
+              <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
             
-            <h6>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
+            <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
                 npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️
                 
-            </h6>
-            <h6><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h6>
-            <button className='btn_style' onClick={NextHandler2}>Next</button>
+            </h5>
+            <h5><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h5>
+            <button style={{fontSize:"1.2rem"}} className='btn_style' onClick={NextHandler2}>Next</button>
                    </div>
                 }
            
