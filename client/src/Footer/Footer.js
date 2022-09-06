@@ -8,7 +8,7 @@ import { AiFillMail } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <div style={{position:"relative",top:"100px"}}>
+        <div style={{position:"relative",top:"0px",marginBottom:"30px"}}>
                   <span className='logo_1'>
                          S
                     </span>
