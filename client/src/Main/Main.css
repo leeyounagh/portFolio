@@ -37,7 +37,7 @@ input:focus {outline: 2px solid lightgray;}
     min-width:11px;
     white-space: nowrap;
     margin: 0;
-    /* position: fixed; */
+    position: fixed;
     color: transparent;
     left:305px;
     top:109px;
