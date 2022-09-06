@@ -47,9 +47,9 @@ input:focus {outline: 2px solid lightgray;}
 
   .Main_typing::before {
     content: "코딩의 매력에 흠뻑빠진 FE개발자 이수연입니다.";
-    position: absolute;
-	left:275px;
-    top:109px;
+    position: relative;
+	left:130%;
+    top:170px;
     width: 330px;
     height: 20px;
     color: black;

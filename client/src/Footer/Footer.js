@@ -5,9 +5,10 @@ import { BsFillTelephoneFill } from 'react-icons/bs';
 import { AiFillMail } from 'react-icons/ai';
 
 
+
 const Footer = () => {
     return (
-        <div>
+        <div style={{position:"relative",top:"100px"}}>
                   <span className='logo_1'>
                          S
                     </span>
@@ -26,7 +27,7 @@ const Footer = () => {
                    <span className='logo_6'>
                     n
                    </span>
-                   <div style={{fontSize:"10px",marginTop:"10px"}}>
+                   <div style={{fontSize:"10px",marginTop:"10px",position:"relative",top:"0px"}}>
                     <span style={{marginRight:"10px"}}>
                     <BsFillTelephoneFill style={{marginRight:"10px"}}></BsFillTelephoneFill>
                     010-7284-0216

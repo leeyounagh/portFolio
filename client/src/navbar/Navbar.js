@@ -3,7 +3,7 @@ import './navbar.css'
 
 const Navbar = () => {
     return (
-        <div className='logo_container'style={{width:"100%",height:"55px",
+        <div className='logo_container'style={{width:"100%",height:"55px",fontSize:"1.2rem",
         display:"flex",justifyContent:'space-between'}}>
          
                 <div style={{width:"100px",marginLeft:"50px"}} >

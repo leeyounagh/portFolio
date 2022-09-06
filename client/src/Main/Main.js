@@ -10,7 +10,7 @@ import { BsMic } from 'react-icons/bs';
 const Main = () => {
     return (
         <div style={{width:"100%",
-         height:"440px",display:"flex",flexDirection:"column",alignItems:"center",  }}>
+         height:"440px",display:"flex",flexDirection:"column",alignItems:"center", position:"relative",top:"50px" }}>
           
             <div style={{width:"400px",height:"120px"}}>
                 <span className='Main_logo_1'>
