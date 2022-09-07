@@ -107,8 +107,8 @@ const History = () => {
            <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
                 npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h5>
            <h4>
-           <a href='https://github.com/leeyounagh/travelapp'>깃허브로 이동</a>
-           
+           <a href='https://github.com/leeyounagh/Newhellojeju'>깃허브로 이동</a>
+          
            </h4>
         
            
