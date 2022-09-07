@@ -100,7 +100,7 @@ const History = () => {
           
           {
             next===1?<div style={{position:"relative",left:"280px",
-            top:"0px"}}>
+            top:"-30px"}}>
                 <h3>HELLO JEJU</h3>
                  <h5>제작기간:2022.06.01~2022.07.31 2개월</h5>
            <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
@@ -111,7 +111,8 @@ const History = () => {
           
            </h4>
         
-           
+           <h5>개발과정의 git 로그를 보고 싶으시다면 아래를 클릭 부탁드립니다.</h5>
+           <a href='https://github.com/leeyounagh/travelapp'>이동</a>
          <h6>영상에 자막이 있으므로 부디 전체화면으로 시청 부탁드립니다.🙏</h6>
            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>
               Next
@@ -138,7 +139,7 @@ const History = () => {
             <div style={{display:"flex",justifyContent:"center",position:"relative",left:"-70px"}}>
             <div style={{width:"80%",height:'400px',margin:"60px"}}>
              <div style={{display:"flex",justifyContent:"space-around",margin:"50px"}}>
-             <video style={{width:'55%', }} id="vid" src="video/쇼핑몰.mp4" controls></video>
+             <video style={{width:'55%', }} id="vid" src="video/쇼핑몰.mov" controls></video>
              <div style={{width:"350px"}}>
                 {
                     next2?<div>{secondPageRenderer2()}</div>:
