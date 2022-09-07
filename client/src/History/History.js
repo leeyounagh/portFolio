@@ -106,13 +106,14 @@ const History = () => {
            <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
            <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
                 npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h5>
-           <h4>
-           <a href='https://github.com/leeyounagh/Newhellojeju'>깃허브로 이동</a>
+           <h6>
+           <a style={{color:"black"}} href='https://github.com/leeyounagh/Newhellojeju'>
+            최종 완성본 깃허브로 이동</a>
           
-           </h4>
+           </h6>
         
-           <h5>개발과정의 git 로그를 보고 싶으시다면 아래를 클릭 부탁드립니다.</h5>
-           <a href='https://github.com/leeyounagh/travelapp'>이동</a>
+           <h6>개발과정의 git 로그를 보고 싶으시다면 아래를 클릭 부탁드립니다.</h6>
+           <a style={{color:'black'}}href='https://github.com/leeyounagh/travelapp'><h6>이동</h6></a>
          <h6>영상에 자막이 있으므로 부디 전체화면으로 시청 부탁드립니다.🙏</h6>
            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>
               Next
