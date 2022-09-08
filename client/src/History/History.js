@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './History.scss'
 
 const History = () => {
 
@@ -45,8 +46,8 @@ const History = () => {
             비짓제주 api,google api를 이용하였습니다.
           </h6>
            
-            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={prevHandler}>prev</button>
-            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>Next</button>
+            <button style={{fontSize:"1.2rem"}}className='btn' onClick={prevHandler}>prev</button>
+            <button style={{fontSize:"1.2rem"}}className='btn' onClick={NextHandler}>Next</button>
             </div>
         )
     }
@@ -65,7 +66,7 @@ const History = () => {
           또한, 유저 여행스타일도 설정 할수 있습니다.
           </h6>
            
-            <button style={{fontSize:"1.2rem"}} className='btn_style' onClick={prevHandler}>prev</button>
+            <button style={{fontSize:"1.2rem"}} className='btn' onClick={prevHandler}>prev</button>
             </div>
         )
     }
@@ -81,7 +82,7 @@ const History = () => {
                 빈티지 소품을 파는 쇼핑몰로, 유저들이 직접 상품을 올릴수도 있고, 구매도 가능하게끔 구현하였습니다.
                     결제는 페이팔 테스트결제를 이용하여 가상으로 결제도 할수있게끔 구현했습니다.
                 </h6>
-                 <button style={{fontSize:"1.2rem"}} className='btn_style'onClick={prevHandler2}>prev</button>
+                 <button style={{fontSize:"1.2rem"}} className='btn'onClick={prevHandler2}>prev</button>
             </div>
         )
     }
@@ -113,7 +114,7 @@ const History = () => {
            <h6>개발과정의 git 로그를 보고 싶으시다면 아래를 클릭 부탁드립니다.</h6>
            <a href='https://github.com/leeyounagh/travelapp'><h6>이동</h6></a>
          <h6>영상에 자막이 있으므로 부디 전체화면으로 시청 부탁드립니다.🙏</h6>
-           <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>
+           <button style={{fontSize:"1.2rem"}}className='btn' onClick={NextHandler}>
               Next
            </button>
            </div>:next===2?<div>{secondPageRenderer()}</div>:<div>{hellojejuthird()}</div>
@@ -155,7 +156,7 @@ const History = () => {
                 
             </h6>
             <h6><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h6>
-            <button style={{fontSize:"1.2rem"}} className='btn_style' onClick={NextHandler2}>Next</button>
+            <button style={{fontSize:"1.2rem"}} className='btn' onClick={NextHandler2}>Next</button>
                    </div>
                 }
            

@@ -14,7 +14,7 @@ const About = () => {
 
     const progressBar = () =>{
       return (
-        <div>
+        <div style={{display:"grid"}}>
           {
             skill.map((item)=>{
               return(
@@ -45,12 +45,13 @@ const About = () => {
         </div>
       )
     }
+    
     return (
-        <div>
+        <div className='About_font'>
       
          
                     <div style={{display:"flex",justifyContent:"center",}}>
-           <div style={{width:"80%",height:"40%",margin:'50px'}}>
+           <div style={{width:"80%",height:"600px",margin:'50px'}}>
            <h1>SKILLS</h1>
             
        {
@@ -65,6 +66,61 @@ const About = () => {
             </div>
 
 
+        <div className="wrap" style={{height:"500px"}}>
+        <div class="tile"> 
+          <img src='./image/포폴1.jpg'/>
+          <div class="text">
+          
+          <h2 class="animate-text">끈기</h2>
+          <p class="animate-text">무엇을 하던 
+          끝까지 최선을 다하는사람으로 주변으로부터 평가 받고 있습니다. 이러한 성격 덕분에 지금까지 도전했던 자격증은 모두 취득하였고,
+          계약직으로 업무한곳에서 좋은 실적을 낸후 계약만료로 일을 마쳤습니다. </p>
+          <h2 style={{textAlign:"center"}}></h2>
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </div>
+        </div>
+
+        <div class="tile"> 
+          <img src='./image/포폴4.jpg'/>
+          <div class="text">
+         
+          <h2 class="animate-text">도전정신</h2>
+          <p class="animate-text">새로운것을 배우고 알아가는것을 좋아하고 제자신이 성장하는것을 좋아하는사람입니다.
+          코딩을 시작한것은 2022년 3월 부터 였습니다. 2021년도에 대학을 졸업하고 일본 지상직에 내정이 되었지만,
+           코로나로 인하여 무한 대기 상태에 놓여있었고 쉬는 동안 자격증을 따며 대기 하던도중, 개발자 동생에게 
+           생활코딩을 추천받았습니다.그때 저는 취미로 시작하였으나 코딩이 너무 재밌어서 진로를 변경하였고,
+           독학으로 지금까지 공부중 입니다.</p>
+          <h1></h1>
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </div>
+        </div>
+        <div class="tile"> 
+          <img src='./image/포폴2.jpg'/>
+          <div class="text">
+   
+          <h2 class="animate-text">문제를 해결하는것을 좋아하는사람</h2>
+          <p class="animate-text">무언가를 끝까지 해내고 난뒤에 느끼는 성취감이 너무 좋습니다.
+           프로젝트를 제작하거나, 코딩 연습할때, 오류가 나는 경우가 굉장히 많았습니다. 그때 스스로 
+           검색하고 공부하면서 해결해낸후 느끼는 성취감이나, 제가 머리속으로 상상한것이 직접 코딩을 함으로써
+           결과물로 나타나는것이 매우 좋습니다.</p>
+          {/* <h1>Lorem ipsum.</h1> */}
+        <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          </div>
+        </div>
+
+</div>
 
 
 
@@ -74,8 +130,7 @@ const About = () => {
 
 
 
-
-           <div style={{margin:"150px",display:"flex",justifyContent:'center',}}>
+           {/* <div style={{margin:"150px",display:"flex",justifyContent:'center',}}>
             <div style={{
             width:"80%",height:"300px",display:'flex',justifyContent:"space-around",}}>
               <span>
@@ -85,30 +140,15 @@ const About = () => {
                 
                   <span>
                     <h2>프로필</h2>
-                    <h3>2012.02~2014.02 상지대학교 응용물리전자학과 중퇴</h3>
+                  
                     <h3>2019.02~2021.02 한국방송통신대학교 관광학과 졸업</h3>
                     <h3>Jlpt n1,TOEIC 620,컴퓨터활용능력 2급 보유</h3>
                    
                     </span>   
             </div>
         
-           </div>
-           {/* <div style={{display:"flex",justifyContent:'center'}}>
-             <div style={{width:"80%",height:"400px",margin:"50px"}}>
-                <h2>프론트엔드 개발자를 꿈꾸게 된이유?</h2>
-                
-                <h5>저는 살면서 제가 가슴속에서 너무 좋고 재밌다고 생각한것이 없었습니다. </h5>
-                <h5>2021년 학교를 졸업하기 직전, 일본 지상직업무를 하는 회사에 내정되었고, </h5>
-                <h5>코로나로 인하여 1년넘게 대기를 하는상황에 놓였었습니다. 마냥 기다릴수만 없었기에</h5>
-                <h5>여러가지 자격증을 공부하며 기다리고 있던와중, 개발자동생에게 생활코딩이라는 유튜버를 소개받았습니다.</h5>
-                <h5>생활코딩 유튜버분의 강의를 들으며 직접 만들어 보고 싶다 생각하여 따라 만들어봤고, </h5>
-                 <h5>처음으로 살면서 너무 재밌다고 생각한것이 생겼습니다.</h5> 
-                 <h5>평생 함께할 직업이기에 내가 좋아하는것을 하면서 일하고 싶다고 생각하였고,  </h5>
-                 <h5>많은 고민끝에 내정받았던 지상직업무의 내정사퇴를 요청드렸고,</h5>
-                  <h5>2022.03월 부터 본격적으로 독학으로 공부를 하기 시작하였습니다.</h5>
-             </div>
            </div> */}
- 
+       
        
         </div>
     );
