@@ -19,8 +19,7 @@ const History = () => {
     }
     const secondPageRenderer = () =>{
         return(
-            <div style={{position:"relative",left:"280px",
-            top:"-30px"}}>
+            <div style={{height:'500px'}}>
                <h4>프로젝트 설명</h4>
                 <h6>  전공이 관광학과다보니 여행관련 앱은 꼭 만들고 싶었습니다.
                     완벽한 홈페이지를 만들고 싶어 풀스택으로 구현하게 되었습니다.
@@ -54,8 +53,7 @@ const History = () => {
    
     const hellojejuthird = () =>{
         return (
-            <div style={{position:"relative",left:"280px",
-            top:"0px"}}>
+            <div style={{height:'500px'}}>
  <h6> 
             커뮤니티 페이지: 유저간 제주도 여행 정보 공유하고, 친목도 다질수 있는 커뮤니티 페이지를 구현했습니다.
             상단에는 최신게시물을 슬라이드로 볼수 있게끔 기능을 추가하였고, 게시글을 직접 쓸수 있고, 유저가 직접 댓글도 달수 있습니다.
@@ -73,7 +71,7 @@ const History = () => {
     }
     const secondPageRenderer2 = ( ) =>{
         return(
-            <div>
+            <div style={{height:'500px'}}>
                 <h4>프로젝트 설명</h4>
                 <h6>리액트 공부후 제대로된 홈페이지를 만들고 싶어 만든 첫 프로젝트 입니다.
                     CRUD를 구현하고 싶어 몽고디비와 nodeexpress를 공부후 프록시서버로 연결하였습니다.
@@ -88,32 +86,32 @@ const History = () => {
         )
     }
     return (
-        <div  >
+        <div style={{width:"100%",}} >
             {/* 헬로우 제주 */}
             <div style={{display:"flex",justifyContent:"center"}}>
-            <div style={{width:"80%",height:'400px',margin:'60px',}}>
+            <div style={{width:"80%",height:'500px',}}>
           <div style={{display:"flex",justifyContent:"space-around",margin:"50px"}}>
-          <video style={{width:'40%',position:'absolute',
-         left:"180px",top:'180px' }} id="vid" src="video/헬로우 제주.mp4" controls></video>
+          <video style={{width:'600px',height:"400px",position:"absolute",
+        left:"15%" }} id="vid" src="video/헬로우 제주.mp4" controls></video>
 
-          <div style={{width:"350px"}}>
+          <div style={{width:"350px",position:"absolute",
+        left:"65%"}}>
           
           {
-            next===1?<div style={{position:"relative",left:"280px",
-            top:"-30px"}}>
-                <h3>HELLO JEJU</h3>
-                 <h5>제작기간:2022.06.01~2022.07.31 2개월</h5>
-           <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
-           <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
-                npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h5>
+            next===1?<div style={{}}>
+                <h2>HELLO JEJU</h2>
+                 <h6>제작기간:2022.06.01~2022.07.31 2개월</h6>
+           <h6> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h6>
+           <h6>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
+                npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️</h6>
            <h6>
-           <a style={{color:"black"}} href='https://github.com/leeyounagh/Newhellojeju'>
+           <a  href='https://github.com/leeyounagh/Newhellojeju'>
             최종 완성본 깃허브로 이동</a>
           
            </h6>
         
            <h6>개발과정의 git 로그를 보고 싶으시다면 아래를 클릭 부탁드립니다.</h6>
-           <a style={{color:'black'}}href='https://github.com/leeyounagh/travelapp'><h6>이동</h6></a>
+           <a href='https://github.com/leeyounagh/travelapp'><h6>이동</h6></a>
          <h6>영상에 자막이 있으므로 부디 전체화면으로 시청 부탁드립니다.🙏</h6>
            <button style={{fontSize:"1.2rem"}}className='btn_style' onClick={NextHandler}>
               Next
@@ -137,23 +135,26 @@ const History = () => {
 
 
             {/* 쇼핑몰 */}
-            <div style={{display:"flex",justifyContent:"center",position:"relative",left:"-70px"}}>
-            <div style={{width:"80%",height:'400px',margin:"60px"}}>
-             <div style={{display:"flex",justifyContent:"space-around",margin:"50px"}}>
-             <video style={{width:'55%', }} id="vid" src="video/쇼핑몰.mov" controls></video>
-             <div style={{width:"350px"}}>
+            <div style={{
+       display:"flex",justifyContent:"center",height:'100%',}}>
+            <div style={{width:"80%",height:'500px'}}>
+             <div style={{display:"flex",justifyContent:"space-around"}}>
+             <video style={{width:'600px',height:"400px",position:"absolute",
+        left:"15%"  }} id="vid" src="video/쇼핑몰.mov" controls></video>
+             <div style={{width:"350px",marginTop:"50px",position:"absolute",
+        left:"65%"}}>
                 {
                     next2?<div>{secondPageRenderer2()}</div>:
-                   <div>
-                    <h3>VintAge</h3>
-                       <h5>제작기간:2022.05.01~05.31 한달</h5>
-              <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
+                   <div style={{height:'500px',}}>
+                    <h2>VintAge</h2>
+                       <h6>제작기간:2022.05.01~05.31 한달</h6>
+              <h6> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h6>
             
-            <h5>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
+            <h6>깃허브에서 clone한후 터미널을 켜서 global로 npm install, cd client 엔터하신후 npm install 하신후
                 npm run dev 입력하시면 테스트 해보실수 있습니다 🙆‍♀️
                 
-            </h5>
-            <h5><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h5>
+            </h6>
+            <h6><a href='https://github.com/leeyounagh/shoppingmall'>깃허브로 이동</a></h6>
             <button style={{fontSize:"1.2rem"}} className='btn_style' onClick={NextHandler2}>Next</button>
                    </div>
                 }

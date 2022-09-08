@@ -5,11 +5,11 @@ import Navbar from '../navbar/Navbar';
 
 const LandingPage = () => {
     return (
-        <div>
+        < >
                 
         <Main></Main>
     
-        </div>
+        </>
     );
 };
 

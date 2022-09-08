@@ -9,8 +9,8 @@ import { BsMic } from 'react-icons/bs';
 
 const Main = () => {
     return (
-        <div style={{width:"100%",marginBottom:"100px",
-         height:"440px",display:"flex",flexDirection:"column",alignItems:"center", position:"relative",top:"50px" }}>
+        <div style={{width:"100%",marginBottom:"50px",height:"120%",
+       display:"flex",flexDirection:"column",alignItems:"center", position:"relative",top:"50px" }}>
           
             <div style={{width:"400px",height:"120px"}}>
                 <span className='Main_logo_1'>
@@ -42,13 +42,19 @@ const Main = () => {
             border:"1px solid lightgray",borderRadius:"50px",
              boxShadow:"inset 0px 1px 5px 0 rgb(0 0 0 / 10%)"}} 
              placeholder></input>
-         <div className='Main_typing'>
-            {/* <h2>코딩의 매력에 흠뻑취한 FE개발자 이수연입니다.</h2> */}
-         
-         </div>
+
+
+ 
+             <div className='start_title' style={{ position:'absolute',zIndex:'50'
+   ,left:'50%',
+   top:'45%',width:'400px',height:'30px'}}> </div>
+          
+
          <BsMic style={{position:'relative',
           top:"-30px",left:"230px"}}size='18px'></BsMic>
-            </div>
+            </div> 
+            {/* 검색창까지 */}
+            <div style={{height:"80%",margin:'50px'}}>
             <div style={{width:"400px",height:"100px",
            display:"flex",justifyContent:'space-between'}}>
             
@@ -137,6 +143,8 @@ const Main = () => {
              
          
             </div>
+            </div>
+           
         </div>
     );
 };
