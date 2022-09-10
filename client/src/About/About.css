@@ -436,11 +436,17 @@ body .progress-bg1 div {
 }
 .tile h1
 {
+  color: #8c8c8c;
+  position: relative;
+  top:50%;
+  
  
-  font-weight:300;
+  /* font-weight:300;
   margin:0;
   text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  */
 }
+
 .tile h2
 {
   font-weight:100;
@@ -460,13 +466,17 @@ body .progress-bg1 div {
 .animate-text
 {
   opacity:0;
-  transition: all 0.6s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .tile:hover
 {
 /*   background-color:#99aeff; */
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
+}
+
+.tile:hover h1{
+display: none;
 }
 .tile:hover img
 {
@@ -532,3 +542,4 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
   }
 }
+

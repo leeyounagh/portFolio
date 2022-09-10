@@ -69,9 +69,12 @@ const About = () => {
         <div className="wrap" style={{height:"500px"}}>
         <div class="tile"> 
           <img src='./image/포폴1.jpg'/>
+        
           <div class="text">
+                   <h1 style={{}}>끈기</h1>
           
-          <h2 class="animate-text">끈기</h2>
+          
+         <h2 class="animate-text">끈기</h2>
           <p class="animate-text">무엇을 하던 
           끝까지 최선을 다하는사람으로 주변으로부터 평가 받고 있습니다. 이러한 성격 덕분에 지금까지 도전했던 자격증은 모두 취득하였고,
           계약직으로 업무한곳에서 좋은 실적을 낸후 계약만료로 일을 마쳤습니다. </p>
@@ -87,7 +90,7 @@ const About = () => {
         <div class="tile"> 
           <img src='./image/포폴4.jpg'/>
           <div class="text">
-         
+          <h1>도전정신</h1>
           <h2 class="animate-text">도전정신</h2>
           <p class="animate-text">새로운것을 배우고 알아가는것을 좋아하고 제자신이 성장하는것을 좋아하는사람입니다.
           코딩을 시작한것은 2022년 3월 부터 였습니다. 2021년도에 대학을 졸업하고 일본 지상직에 내정이 되었지만,
@@ -105,8 +108,10 @@ const About = () => {
         <div class="tile"> 
           <img src='./image/포폴2.jpg'/>
           <div class="text">
-   
-          <h2 class="animate-text">문제를 해결하는것을 좋아하는사람</h2>
+         <h1>
+         문제 해결하는것을 좋아하는사람
+         </h1>
+        <h2 class="animate-text"> 문제 해결하는것을 좋아하는사람</h2>
           <p class="animate-text">무언가를 끝까지 해내고 난뒤에 느끼는 성취감이 너무 좋습니다.
            프로젝트를 제작하거나, 코딩 연습할때, 오류가 나는 경우가 굉장히 많았습니다. 그때 스스로 
            검색하고 공부하면서 해결해낸후 느끼는 성취감이나, 제가 머리속으로 상상한것이 직접 코딩을 함으로써
